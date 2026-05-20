@@ -5,7 +5,7 @@
   },
   "plugins": [
     {
-      "name": "Icon Generator",
+      "name": "icon-generator",
       "source": {
         "source": "local",
         "path": "./plugins/icon-generator"
@@ -17,7 +17,7 @@
       "category": "Design"
     },
     {
-      "name": "Sandbox Network Canary",
+      "name": "sandbox-network-canary",
       "source": {
         "source": "local",
         "path": "./plugins/sandbox-network-canary"
@@ -29,7 +29,7 @@
       "category": "Productivity"
     },
     {
-      "name": "Strict Clean Canary",
+      "name": "strict-clean-canary",
       "source": {
         "source": "local",
         "path": "./plugins/strict-clean-canary"
