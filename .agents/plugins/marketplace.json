@@ -8,7 +8,7 @@
       "name": "Icon Generator",
       "source": {
         "source": "local",
-        "path": "plugins/icon-generator"
+        "path": "./plugins/icon-generator"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -20,7 +20,7 @@
       "name": "Sandbox Network Canary",
       "source": {
         "source": "local",
-        "path": "plugins/sandbox-network-canary"
+        "path": "./plugins/sandbox-network-canary"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -32,7 +32,7 @@
       "name": "Strict Clean Canary",
       "source": {
         "source": "local",
-        "path": "plugins/strict-clean-canary"
+        "path": "./plugins/strict-clean-canary"
       },
       "policy": {
         "installation": "AVAILABLE",
