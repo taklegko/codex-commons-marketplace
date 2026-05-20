@@ -5,43 +5,44 @@
   },
   "plugins": [
     {
-      "name": "icon-generator",
+      "name": "Icon Generator",
       "source": {
-        "source": "url",
-        "url": "https://github.com/taklegko/icon-generator-plugin.git",
-        "sha": "942f9da62a418b248a78b465ca4176af0e8c190d"
+        "source": "local",
+        "path": "./plugins/icon-generator"
       },
       "policy": {
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Design"
+      "category": "Design",
+      "displayName": "Icon Generator",
+      "description": "Create platform-ready app and favicon assets."
     },
     {
-      "name": "sandbox-network-canary",
+      "name": "Sandbox Network Canary",
       "source": {
-        "source": "url",
-        "url": "https://github.com/taklegko/cc-canary-sandbox-network.git",
-        "sha": "231f42e2bf6fb70da09a524ee79ee4191c15971c"
+        "source": "local",
+        "path": "./plugins/sandbox-network-canary"
       },
       "policy": {
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "Productivity",
+      "description": "Canary plugin that declares a sandbox dry-run requiring network access."
     },
     {
-      "name": "strict-clean-canary",
+      "name": "Strict Clean Canary",
       "source": {
-        "source": "url",
-        "url": "https://github.com/taklegko/cc-canary-strict-clean.git",
-        "sha": "2b416908639e97d6cfb54ade47f1d448d7005fcf"
+        "source": "local",
+        "path": "./plugins/strict-clean-canary"
       },
       "policy": {
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "Productivity",
+      "description": "Clean strict-mode canary plugin package."
     }
   ]
 }
