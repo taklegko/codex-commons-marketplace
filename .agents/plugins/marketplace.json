@@ -7,9 +7,8 @@
     {
       "name": "icon-generator",
       "source": {
-        "source": "git-subdir",
+        "source": "url",
         "url": "https://github.com/taklegko/icon-generator-plugin.git",
-        "path": "./",
         "sha": "942f9da62a418b248a78b465ca4176af0e8c190d"
       },
       "policy": {
@@ -21,9 +20,8 @@
     {
       "name": "sandbox-network-canary",
       "source": {
-        "source": "git-subdir",
+        "source": "url",
         "url": "https://github.com/taklegko/cc-canary-sandbox-network.git",
-        "path": "./",
         "sha": "231f42e2bf6fb70da09a524ee79ee4191c15971c"
       },
       "policy": {
@@ -35,9 +33,8 @@
     {
       "name": "strict-clean-canary",
       "source": {
-        "source": "git-subdir",
+        "source": "url",
         "url": "https://github.com/taklegko/cc-canary-strict-clean.git",
-        "path": "./",
         "sha": "2b416908639e97d6cfb54ade47f1d448d7005fcf"
       },
       "policy": {
