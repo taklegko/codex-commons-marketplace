@@ -1,0 +1,7 @@
+{
+  "name": "cc-canary-strict-clean",
+  "version": "1.0.0",
+  "description": "Clean strict-mode canary plugin package.",
+  "repository": "https://github.com/taklegko/cc-canary-strict-clean",
+  "skills": "./skills/"
+}

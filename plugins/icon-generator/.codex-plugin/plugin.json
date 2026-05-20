@@ -1,0 +1,45 @@
+{
+  "name": "icon-generator-plugin",
+  "version": "0.7.0",
+  "description": "Generate icon assets for iOS, macOS, Android, and web projects from a single master icon.",
+  "author": {
+    "name": "Marina Eremina",
+    "url": "https://github.com/taklegko"
+  },
+  "homepage": "https://github.com/taklegko/icon-generator-plugin",
+  "repository": "https://github.com/taklegko/icon-generator-plugin",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "app-icons",
+    "ios",
+    "macos",
+    "android",
+    "favicon",
+    "web",
+    "xcode",
+    "android-studio"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Icon Generator",
+    "shortDescription": "Create platform-ready app and favicon assets.",
+    "longDescription": "Generate a 1024x1024 master icon with Codex image generation, then export validated icon assets for iOS, macOS, Android, and web projects.",
+    "developerName": "Marina Eremina",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write",
+      "Interactive"
+    ],
+    "websiteURL": "https://github.com/taklegko/icon-generator-plugin",
+    "defaultPrompt": [
+      "Create app icons for this mobile project.",
+      "Generate iOS and Android launcher icons.",
+      "Make AppIcon assets from this image.",
+      "Generate favicons for this website."
+    ],
+    "brandColor": "#111111"
+  }
+}

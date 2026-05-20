@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "icon-composer": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "icon-composer-mcp"
+      ]
+    }
+  }
+}
