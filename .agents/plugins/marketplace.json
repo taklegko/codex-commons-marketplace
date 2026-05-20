@@ -5,7 +5,7 @@
   },
   "plugins": [
     {
-      "name": "icon-generator",
+      "name": "icon-generator-plugin",
       "source": {
         "source": "local",
         "path": "./plugins/icon-generator"
@@ -19,7 +19,7 @@
       "description": "Create platform-ready app and favicon assets."
     },
     {
-      "name": "sandbox-network-canary",
+      "name": "cc-canary-sandbox-network",
       "source": {
         "source": "local",
         "path": "./plugins/sandbox-network-canary"
@@ -32,7 +32,7 @@
       "description": "Canary plugin that declares a sandbox dry-run requiring network access."
     },
     {
-      "name": "strict-clean-canary",
+      "name": "cc-canary-strict-clean",
       "source": {
         "source": "local",
         "path": "./plugins/strict-clean-canary"
